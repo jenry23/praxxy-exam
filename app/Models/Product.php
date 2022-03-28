@@ -41,7 +41,6 @@ class Product extends Model implements HasMedia
         'description',
         'category',
         'date',
-        'tag.name',
     ];
 
     protected $fillable = [

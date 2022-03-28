@@ -7,8 +7,6 @@ use App\Http\Requests\StoreProductRequest;
 use App\Http\Requests\UpdateProductRequest;
 use App\Http\Resources\Admin\ProductResource;
 use App\Models\Product;
-use App\Models\ProductCategory;
-use App\Models\ProductTag;
 use Gate;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

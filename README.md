@@ -12,6 +12,10 @@
 - Product
 - Video
 
+## Admin Credentials
+- username : admin@admin.com
+- password : password
+
 ## Installation
 
 ```bash

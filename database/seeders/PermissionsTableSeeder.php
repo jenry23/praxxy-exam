@@ -97,56 +97,6 @@ class PermissionsTableSeeder extends Seeder
                 'updated_at' => Carbon::now()
             ],
             [
-                'title' => 'product_category_create',
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now()
-            ],
-            [
-                'title' => 'product_category_edit',
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now()
-            ],
-            [
-                'title' => 'product_category_show',
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now()
-            ],
-            [
-                'title' => 'product_category_delete',
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now()
-            ],
-            [
-                'title' => 'product_category_access',
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now()
-            ],
-            [
-                'title' => 'product_tag_create',
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now()
-            ],
-            [
-                'title' => 'product_tag_edit',
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now()
-            ],
-            [
-                'title' => 'product_tag_show',
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now()
-            ],
-            [
-                'title' => 'product_tag_delete',
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now()
-            ],
-            [
-                'title' => 'product_tag_access',
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now()
-            ],
-            [
                 'title' => 'product_create',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()

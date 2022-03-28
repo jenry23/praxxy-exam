@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "adminapp/js/chunks/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"fcd312a5bd50f23d5706","1":"e578306f5d33dad2323d","2":"8500d952d05e9b272a4b","3":"410d00e047f9472220f6","4":"01555fef6854bad6b9b2","5":"66d5ae1016c85e87070a","6":"0125c07f6ed2858474f3","7":"5af2b90f84111bc3d992","8":"97240c00d3432f452803","9":"89181089720757ca3e45","10":"b0c5173e791186e394cf","11":"bf547566204257f8a733","12":"bd7d3e3a4e715ef2e7c0","13":"eda9603d0e68f8eac6b3","14":"01ae9dbbeaa170372271","15":"d6d304aecb27169dcc9e","16":"fd2913d06e7859094758","17":"1b2aff832b67876e0a6e","18":"a76312dbbc76032f57dc","19":"b1e57df21ef86ccdc5b9","20":"39daf69facfc2aa55a0d","21":"2f0e2b5e39c25167250a"}[chunkId] + ""
+/******/ 		return __webpack_require__.p + "adminapp/js/chunks/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"fcd312a5bd50f23d5706","1":"e578306f5d33dad2323d","2":"cf06d42e1d7531dd8802","3":"410d00e047f9472220f6","4":"d2f0439e0345744e5b55","5":"66d5ae1016c85e87070a","6":"0125c07f6ed2858474f3","7":"5af2b90f84111bc3d992","8":"97240c00d3432f452803","9":"f048556f23fb05d11cc3","10":"9a04a2b7314fc8027410","11":"95c33f4e6906ab4464dd","12":"96e551ad705604a0b778","13":"c8a4d9a9778e0ebbdd28","14":"e2928bdad3ece118ea14","15":"16cb9a10eeeb4fcb5c3d","18":"96a88e2706a44df0c357","19":"0feaee3d92b633c4200e","20":"5647df0731da90b8ea68","21":"69b60793557140c5becc","22":"5eafe5982c6c7670944e","23":"07c858f708e7607e8bbd"}[chunkId] + ""
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -55336,7 +55336,7 @@ var routes = [{
     path: 'dashboard',
     name: 'dashboard',
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 21).then(__webpack_require__.bind(null, /*! @pages/Dashboard.vue */ "./resources/adminapp/js/pages/Dashboard.vue"));
+      return __webpack_require__.e(/*! import() */ 22).then(__webpack_require__.bind(null, /*! @pages/Dashboard.vue */ "./resources/adminapp/js/pages/Dashboard.vue"));
     },
     meta: {
       title: 'global.dashboard'
@@ -55352,7 +55352,7 @@ var routes = [{
       path: 'permissions',
       name: 'permissions.index',
       component: function component() {
-        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(11)]).then(__webpack_require__.bind(null, /*! @cruds/Permissions/Index.vue */ "./resources/adminapp/js/cruds/Permissions/Index.vue"));
+        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(12)]).then(__webpack_require__.bind(null, /*! @cruds/Permissions/Index.vue */ "./resources/adminapp/js/cruds/Permissions/Index.vue"));
       },
       meta: {
         title: 'cruds.permission.title'
@@ -55361,7 +55361,7 @@ var routes = [{
       path: 'permissions/create',
       name: 'permissions.create',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! @cruds/Permissions/Create.vue */ "./resources/adminapp/js/cruds/Permissions/Create.vue"));
+        return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! @cruds/Permissions/Create.vue */ "./resources/adminapp/js/cruds/Permissions/Create.vue"));
       },
       meta: {
         title: 'cruds.permission.title'
@@ -55370,7 +55370,7 @@ var routes = [{
       path: 'permissions/:id',
       name: 'permissions.show',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! @cruds/Permissions/Show.vue */ "./resources/adminapp/js/cruds/Permissions/Show.vue"));
+        return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! @cruds/Permissions/Show.vue */ "./resources/adminapp/js/cruds/Permissions/Show.vue"));
       },
       meta: {
         title: 'cruds.permission.title'
@@ -55379,7 +55379,7 @@ var routes = [{
       path: 'permissions/:id/edit',
       name: 'permissions.edit',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! @cruds/Permissions/Edit.vue */ "./resources/adminapp/js/cruds/Permissions/Edit.vue"));
+        return __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! @cruds/Permissions/Edit.vue */ "./resources/adminapp/js/cruds/Permissions/Edit.vue"));
       },
       meta: {
         title: 'cruds.permission.title'
@@ -55397,7 +55397,7 @@ var routes = [{
       path: 'roles/create',
       name: 'roles.create',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 17).then(__webpack_require__.bind(null, /*! @cruds/Roles/Create.vue */ "./resources/adminapp/js/cruds/Roles/Create.vue"));
+        return __webpack_require__.e(/*! import() */ 18).then(__webpack_require__.bind(null, /*! @cruds/Roles/Create.vue */ "./resources/adminapp/js/cruds/Roles/Create.vue"));
       },
       meta: {
         title: 'cruds.role.title'
@@ -55415,7 +55415,7 @@ var routes = [{
       path: 'roles/:id/edit',
       name: 'roles.edit',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 18).then(__webpack_require__.bind(null, /*! @cruds/Roles/Edit.vue */ "./resources/adminapp/js/cruds/Roles/Edit.vue"));
+        return __webpack_require__.e(/*! import() */ 19).then(__webpack_require__.bind(null, /*! @cruds/Roles/Edit.vue */ "./resources/adminapp/js/cruds/Roles/Edit.vue"));
       },
       meta: {
         title: 'cruds.role.title'
@@ -55433,7 +55433,7 @@ var routes = [{
       path: 'users/create',
       name: 'users.create',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 19).then(__webpack_require__.bind(null, /*! @cruds/Users/Create.vue */ "./resources/adminapp/js/cruds/Users/Create.vue"));
+        return __webpack_require__.e(/*! import() */ 20).then(__webpack_require__.bind(null, /*! @cruds/Users/Create.vue */ "./resources/adminapp/js/cruds/Users/Create.vue"));
       },
       meta: {
         title: 'cruds.user.title'
@@ -55451,7 +55451,7 @@ var routes = [{
       path: 'users/:id/edit',
       name: 'users.edit',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 20).then(__webpack_require__.bind(null, /*! @cruds/Users/Edit.vue */ "./resources/adminapp/js/cruds/Users/Edit.vue"));
+        return __webpack_require__.e(/*! import() */ 21).then(__webpack_require__.bind(null, /*! @cruds/Users/Edit.vue */ "./resources/adminapp/js/cruds/Users/Edit.vue"));
       },
       meta: {
         title: 'cruds.user.title'
@@ -55468,7 +55468,7 @@ var routes = [{
       path: 'products',
       name: 'products.index',
       component: function component() {
-        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(2), __webpack_require__.e(15)]).then(__webpack_require__.bind(null, /*! @cruds/Products/Index.vue */ "./resources/adminapp/js/cruds/Products/Index.vue"));
+        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(23)]).then(__webpack_require__.bind(null, /*! @cruds/Products/Index.vue */ "./resources/adminapp/js/cruds/Products/Index.vue"));
       },
       meta: {
         title: 'cruds.product.title'
@@ -55477,7 +55477,7 @@ var routes = [{
       path: 'products/create',
       name: 'products.create',
       component: function component() {
-        return Promise.all(/*! import() */[__webpack_require__.e(3), __webpack_require__.e(1), __webpack_require__.e(13)]).then(__webpack_require__.bind(null, /*! @cruds/Products/Create.vue */ "./resources/adminapp/js/cruds/Products/Create.vue"));
+        return Promise.all(/*! import() */[__webpack_require__.e(3), __webpack_require__.e(1), __webpack_require__.e(14)]).then(__webpack_require__.bind(null, /*! @cruds/Products/Create.vue */ "./resources/adminapp/js/cruds/Products/Create.vue"));
       },
       meta: {
         title: 'cruds.product.title'
@@ -55486,7 +55486,7 @@ var routes = [{
       path: 'products/:id',
       name: 'products.show',
       component: function component() {
-        return Promise.all(/*! import() */[__webpack_require__.e(2), __webpack_require__.e(16)]).then(__webpack_require__.bind(null, /*! @cruds/Products/Show.vue */ "./resources/adminapp/js/cruds/Products/Show.vue"));
+        return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! @cruds/Products/Show.vue */ "./resources/adminapp/js/cruds/Products/Show.vue"));
       },
       meta: {
         title: 'cruds.product.title'
@@ -55495,12 +55495,21 @@ var routes = [{
       path: 'products/:id/edit',
       name: 'products.edit',
       component: function component() {
-        return Promise.all(/*! import() */[__webpack_require__.e(3), __webpack_require__.e(1), __webpack_require__.e(14)]).then(__webpack_require__.bind(null, /*! @cruds/Products/Edit.vue */ "./resources/adminapp/js/cruds/Products/Edit.vue"));
+        return Promise.all(/*! import() */[__webpack_require__.e(3), __webpack_require__.e(1), __webpack_require__.e(15)]).then(__webpack_require__.bind(null, /*! @cruds/Products/Edit.vue */ "./resources/adminapp/js/cruds/Products/Edit.vue"));
       },
       meta: {
         title: 'cruds.product.title'
       }
     }]
+  }, {
+    path: 'video',
+    name: 'video',
+    component: function component() {
+      return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! @cruds/Video/index.vue */ "./resources/adminapp/js/cruds/Video/index.vue"));
+    },
+    meta: {
+      title: 'Video'
+    }
   }]
 }];
 /* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({

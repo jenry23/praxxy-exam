@@ -101,6 +101,13 @@ __webpack_require__.r(__webpack_exports__);
           },
           gate: 'product_access'
         }]
+      }, {
+        title: 'Video',
+        icon: 'videocam',
+        path: {
+          name: 'video'
+        },
+        children: []
       }]
     };
   }

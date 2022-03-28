@@ -12,7 +12,6 @@ class UsersTableSeeder extends Seeder
     {
         $users = [
             [
-                'id'             => 1,
                 'name'           => 'Admin',
                 'email'          => 'admin@admin.com',
                 'password'       => bcrypt('password'),
@@ -20,6 +19,14 @@ class UsersTableSeeder extends Seeder
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
+            [
+                'name'           => 'Test',
+                'email'          => 'test@test.com',
+                'password'       => bcrypt('password'),
+                'remember_token' => null,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ]
         ];
 
         User::insert($users);

@@ -12,8 +12,8 @@
 - Product
 - Video
 
-## Admin Credentials
-- username : admin@admin.com
+## Credentials
+- username : test@test.com
 - password : password
 
 ## Installation
@@ -27,6 +27,7 @@ update .env and set your database credentials
 $ php artisan key:generate
 $ php artisan migrate
 $ php artisan db:seed
+$ php artisan storage:link
 $ npm install
 $ npm run dev
 $ php artisan serve

@@ -129,6 +129,12 @@ const routes = [
           }
         ]
       },
+      {
+        path: 'video',
+        name: 'video',
+        component: () => import('@cruds/Video/index.vue'),
+        meta: { title: 'Video' }
+      },
     ]
   }
 ]
